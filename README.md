@@ -24,11 +24,11 @@ Projede Meksika Sağlık Bakanlığı tarafından sağlanan **COVID-19 Patient B
 ## 📈 Model Performans Karşılaştırması
 Aşağıdaki sonuçlar test veri seti üzerinden elde edilmiştir:
 
-| Algoritma | Accuracy | Precision | Recall | F1-Score |
-| :--- | :--- | :--- | :--- | :--- |
-| **Random Forest** | %[Sonucun] | %[Sonucun] | %[Sonucun] | %[Sonucun] |
-| **Logistic Regression** | %[Sonucun] | %[Sonucun] | %[Sonucun] | %[Sonucun] |
-| **Decision Tree** | %[Sonucun] | %[Sonucun] | %[Sonucun] | %[Sonucun] |
+Algoritma,Accuracy,Precision (Pozitif),Recall (Pozitif),F1-Score
+Logistic Regression,%62.37,%63.00,%72.21,%67.29
+Random Forest,%59.32,%61.25,%65.64,%63.37
+Decision Tree,%57.89,%60.87,%60.05,%60.45
+KNN,%57.30,%59.60,%63.15,%61.33
 
 ## 💡 Sonuç ve Yorumlar
 * Yapılan testler sonucunda en yüksek doğruluk oranına **Random Forest** algoritması ile ulaşılmıştır.
